@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- meta情報 -->
+        <title>渡邉脳神経外科クリニック</title>
+        <meta name="“robots”" content="“noindex”" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <!-- ogp -->
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+        <!-- ファビコン -->
+        <link rel="shortcut icon" href="#" type="image/x-icon" />
+        <!-- フォント -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
+        <!-- css -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css"
+        />
+        <script defer src="./js/script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__inner">
+                <h1 class="header__logo">
+                    <a href="index.html" class="header__logo-img">
+                        <img
+                            src="./img/common/header-logo.svg"
+                            alt="渡邉脳神経外科クリニック"
+                        />
+                    </a>
+                </h1>
+                <button class="header__hamburger js-hamburger hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="header__nav header-nav js-drawer">
+                    <div class="header-nav__wrapper">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a href="about.html">クリニックについて</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="news.html">お知らせ</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="treatment.html">診療案内</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="form.html">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="header__circle"></div>
+        <main>
+            <!-- 小ページ共通MV -->
+            <section class="top-p__contact top-mv">
+                <div class="top-mv__box">
+                    <h2 class="top-mv__title">contact</h2>
+                    <p class="top-mv__text">お問い合わせ</p>
+                </div>
+            </section>
+            <article class="page">
+                <div class="inner">
+                    <p class="page-text">
+                        <a href="index.html">HOME</a> ＞ お問い合わせ
+                    </p>
+                </div>
+                <section class="info">
+                    <div class="info__inner">
+                        <div class="info-title">
+                            <div class="info-title__img">
+                                <img
+                                    src="./img/img/title-img.png"
+                                    alt="脳のイラスト"
+                                />
+                            </div>
+                            <h3 class="info-title__text">
+                                お問い合わせフォーム
+                            </h3>
+                        </div>
+                        <p class="info__message">
+                            ご質問、ご要望、ご相談は下記フォームをご利用ください。<br />※体調に不安がある方は、直接医師の診察をお勧めします。
+                        </p>
+                        <form class="info__form info-form">
+                            <ul class="info-form__list">
+                                <li class="info-form__item">
+                                    <div class="info-form__label-wrapper">
+                                        <label for="name" class="info-form__label"
+                                            >お名前<span class="info-form__required"
+                                                >必須</span
+                                            ></label
+                                        >
+                                    </div>
+                                    <div class="info-form__input-wrapper">
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            name="name"
+                                            class="info-form__input"
+                                            placeholder="福岡　花子"
+                                            required
+                                        />
+                                    </div>
+                                </li>
+                                <li class="info-form__item">
+                                    <div class="info-form__label-wrapper">
+                                        <label for="name-k" class="info-form__label"
+                                            >フリガナ<span
+                                                class="info-form__required"
+                                                >必須</span
+                                            ></label
+                                        >
+                                    </div>
+                                    <div class="info-form__input-wrapper">
+                                        <input
+                                            type="text"
+                                            id="name-k"
+                                            name="name-k"
+                                            class="info-form__input"
+                                            placeholder="フクオカ　ハナコ"
+                                            required
+                                        />
+                                    </div>
+                                </li>
+                                <li class="info-form__item">
+                                    <div class="info-form__label-wrapper">
+                                        <label for="tel" class="info-form__label"
+                                            >電話番号<span
+                                                class="info-form__required"
+                                                >必須</span
+                                            ></label
+                                        >
+                                    </div>
+                                    <div class="info-form__input-wrapper">
+                                        <input
+                                            type="tel"
+                                            id="tel"
+                                            name="tel"
+                                            class="info-form__input"
+                                            placeholder="090-0000-0000"
+                                            required
+                                        />
+                                    </div>
+                                </li>
+                                <li class="info-form__item">
+                                    <div class="info-form__label-wrapper">
+                                        <label for="email" class="info-form__label"
+                                            >メールアドレス<span
+                                                class="info-form__required"
+                                                >必須</span
+                                            ></label
+                                        >
+                                    </div>
+                                    <div class="info-form__input-wrapper">
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            class="info-form__input"
+                                            placeholder="abcdefg@xxx.xx.com"
+                                            required
+                                        />
+                                    </div>
+                                </li>
+                                <li class="info-form__item">
+                                    <div class="info-form__label-wrapper">
+                                        <label
+                                            for="content"
+                                            class="info-form__label"
+                                            >お問い合わせ内容<span
+                                                class="info-form__required"
+                                                >必須</span
+                                            ></label
+                                        >
+                                    </div>
+                                    <div class="info-form__input-wrapper">
+                                        <textarea
+                                            name="content"
+                                            id="content"
+                                            cols="30"
+                                            rows="10"
+                                            class="info-form__input"
+                                            placeholder="お問い合わせ内容をご記入ください。"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="info-form__message">記載していただいた個人情報は、今回のお問合せ以外には使用しません。<br>ご本人の同意がなければ第三者に個人情報を提供することもございません。<br>取得した個人情報は管理責任者を定め、紛失や漏洩などが発生しないよう積極的な安全対策を実施いたします。</p>
+                            <div class="info-form__btn-wrapper">
+                                <button type="submit" class="info-form__btn">送信する</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="footer__logo u-desktop">
+                    <img
+                        src="./img/common/footer-logo.svg"
+                        alt="渡邉脳神経外科クリニック"
+                    />
+                </div>
+                <div class="footer__menu">
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="index.html">ホーム</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="about.html">クリニックについて</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="news.html">お知らせ</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="treatment.html">診療案内</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="form.html">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__contact">
+                        <div class="footer__logo-sp u-mobile">
+                            <img
+                                src="./img/common/footer-logo-sp.svg"
+                                alt="渡邉脳神経外科クリニック"
+                            />
+                        </div>
+                        <p class="footer__address">福岡県福岡市中央区渡邉123</p>
+                        <div class="footer__tel">
+                            <a href="tel:093-0000-0000">Tel. 093-0000-0000</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__small">
+                <small>&copy;2022 Watanabe neuro-spone clinic</small>
+            </div>
+        </footer>
+        <!-- jQuery読み込み -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+    </body>
+</html>
